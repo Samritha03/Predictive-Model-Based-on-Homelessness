@@ -1,0 +1,36 @@
+# --- Data Directories ---
+# Ignore raw datasets from HUD, NOAA, and Census
+data/
+raw_data/
+*.csv
+*.xlsx
+*.parquet
+
+# --- Environment & Credentials ---
+# Never commit virtual environments or API keys
+.env
+venv/
+env/
+python_env/
+
+# --- Python Build & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Model Artifacts ---
+# Ignore large model weights from Random Forest or XGBoost
+models/
+*.joblib
+*.pkl
+*.bin
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Documentation Sync ---
+# Ignore local sync files from Sharepoint or OneDrive
+~*
