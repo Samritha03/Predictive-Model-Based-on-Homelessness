@@ -10,7 +10,7 @@ Traditional homelessness research often focuses on individual-level predictors; 
 - Optimize resource distribution by enabling early identification of high-risk communities for policymakers.
 
 ### Technical Stack
-- **Language:** Python, R
+- **Language:** Python, R.
 - **Data Processing:** Pandas, NumPy (for complex multi-source ETL).
 - **Machine Learning:** Histogram-Based Gradient Boosting, Random Forest, XGBoost, Linear Regression.
 - **Visualization:** Matplotlib, Seaborn (for trend analysis and feature importance).
